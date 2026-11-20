@@ -1,0 +1,14 @@
+# 2026 European Supply Chain Dataset
+
+This folder contains the input dataset (`EU_Supply_Chain_2026_Dataset.xlsx`) used to model and optimize a 5-country European manufacturing and distribution network (**Germany, France, Spain, Czechia, and Poland**).
+
+## Workbook Structure & Data Sources
+
+| Sheet Name | Business Parameter | 2026 Reference & Methodology |
+| :--- | :--- | :--- |
+| `variable_costs` | Unit manufacturing cost (€/unit) | **Eurostat** Labour Cost Index (Q2 2026) & Non-Household Electricity Prices (`nrg_pc_205`, 2026 S1). |
+| `freight_costs` | Full Truckload (FTL) road freight (€/1,000 units) | **IRU / Upply / Ti** European Road Freight Benchmark 2026, including German CO2 *LKW-Maut* and Poland *e-TOLL* surcharges. |
+| `fixed_cost` | Monthly facility overhead & CAPEX (k€/month) | **CBRE / BNP Paribas Real Estate** European Logistics Prime Rents (Q1–Q3 2026) plus amortized equipment CAPEX. |
+| `capacity` | Monthly plant production limits (kUnits/month) | Standardized **Low-Capacity** (5,000 sqm) vs. **High-Capacity** (15,000–20,000 sqm) facility tiers. |
+| `demand` | Monthly customer market demand (Units/month) | Scaled to 2026 EU industrial and consumer market sizes across Germany, France, Spain, Czechia, and Poland. |
+| `sustainability_co2` | Grid carbon intensity (gCO2e/kWh) | **European Environment Agency (EEA)** 2026 National Grid Carbon Intensity estimates for emissions-cap modeling. |
