@@ -7,7 +7,7 @@ A collection of applied data analytics, mathematical optimization, and simulatio
 | # | Project | Core Method | Key Tools | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | **01** | **[EU Manufacturing Network Optimization (2026)](./Capacitated-Facility-Location-Problem)** | Mixed-Integer Linear Programming (MILP) | Python, `PuLP`, `pandas`, `matplotlib` | In Progress |
-| **02** | **[University Supply Chain & Data Science](./uni-pro)** | Python, Excel | In Progress |
+| **02** | **[University Supply Chain & Data Science](./UNI-Projects)** | Python, Excel | In Progress |
 | **03** | *Inventory Policy & Safety Stock Optimization* | Stochastic Modeling & EOQ | Python, `NumPy`, `SciPy` | Planned |
 | **04** | *Demand Forecasting & S&OP Planning* | Time-Series Forecasting | Python, `statsmodels`, `scikit-learn` | Planned |
 
