@@ -1,7 +1,24 @@
-# Supply_Chains
+# Supply Chain Analytics & Operations Research Portfolio
 
-**1. ABC_XYZ_Analysis:**
-An Excel tool for inventory classification. It ranks 80 items by annual demand value (ABC) and by demand variability (XYZ), with graphs of the results. Change the criteria or add records, and the classifications and charts update.
+A collection of applied data analytics, mathematical optimization, and simulation projects solving real-world supply chain, logistics, and manufacturing network problems.
 
-**2. HOQ-BOM:**
-E-scooter product development. It covers a House of Quality (customer needs mapped to technical requirements, with weighted scores) and a Bill of Materials with sub-assembly costs.
+## Projects
+
+| # | Project | Core Method | Key Tools | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **01** | **[EU Manufacturing Network Optimization (2026)](./eu-supply-chain-optimization)** | Mixed-Integer Linear Programming (MILP) | Python, `PuLP`, `pandas`, `matplotlib` | In Progress |
+| **02** | *Inventory Policy & Safety Stock Optimization* | Stochastic Modeling & EOQ | Python, `NumPy`, `SciPy` | Planned |
+| **03** | *Demand Forecasting & S&OP Planning* | Time-Series Forecasting | Python, `statsmodels`, `scikit-learn` | Planned |
+
+## Tech Stack
+* **Languages & Libraries:** Python (`pandas`, `NumPy`, `PuLP`, `matplotlib`, `seaborn`)
+* **Environments & BI:** Google Colab, Jupyter Notebooks, Excel, Power BI
+* **Data Sources:** Eurostat, European Environment Agency (EEA), IRU / Upply / Ti Logistics Benchmarks
+
+## Repository Structure
+```text
+supply-chain-analytics/
+├── eu-supply-chain-optimization/   # Project 01: 5-country EU plant location & freight optimization
+│   ├── data/                       # 2026 European empirical dataset & source documentation
+│   └── notebooks/                  # Step-by-step Google Colab optimization notebooks
+└── README.md                       # Main portfolio overview
