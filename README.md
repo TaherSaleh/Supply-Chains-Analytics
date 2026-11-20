@@ -6,7 +6,7 @@ A collection of applied data analytics, mathematical optimization, and simulatio
 
 | # | Project | Core Method | Key Tools | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **01** | **[EU Manufacturing Network Optimization (2026)](./Capacitated Facility Location Problem (CFLP))** | Mixed-Integer Linear Programming (MILP) | Python, `PuLP`, `pandas`, `matplotlib` | In Progress |
+| **01** | **[EU Manufacturing Network Optimization (2026)](./Capacitated-Facility-Location-Problem)** | Mixed-Integer Linear Programming (MILP) | Python, `PuLP`, `pandas`, `matplotlib` | In Progress |
 | **02** | *Inventory Policy & Safety Stock Optimization* | Stochastic Modeling & EOQ | Python, `NumPy`, `SciPy` | Planned |
 | **03** | *Demand Forecasting & S&OP Planning* | Time-Series Forecasting | Python, `statsmodels`, `scikit-learn` | Planned |
 
@@ -14,11 +14,3 @@ A collection of applied data analytics, mathematical optimization, and simulatio
 * **Languages & Libraries:** Python (`pandas`, `NumPy`, `PuLP`, `matplotlib`, `seaborn`)
 * **Environments & BI:** Google Colab, Jupyter Notebooks, Excel, Power BI
 * **Data Sources:** Eurostat, European Environment Agency (EEA), IRU / Upply / Ti Logistics Benchmarks
-
-## Repository Structure
-```text
-supply-chain-analytics/
-├── eu-supply-chain-optimization/   # Project 01: 5-country EU plant location & freight optimization
-│   ├── data/                       # 2026 European empirical dataset & source documentation
-│   └── notebooks/                  # Step-by-step Google Colab optimization notebooks
-└── README.md                       # Main portfolio overview
