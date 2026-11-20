@@ -25,9 +25,8 @@ All cost, capacity, freight, and emissions inputs are anchored to 2026 European 
 | **3. Freight Surge (3x FTL)** | €69,203,700 | **+18.1%** | 8,808 t | Spain (Low), Czechia (Low + High), Poland (High) |
 | **4. Green CO2 Cap (<=5,500t)** | €65,842,900 | **+12.4%** | **5,182 t** | France (Low), Spain (Low + High), Czechia (High) |
 
-![Scenario Comparison 1](./Scenario%20Comparison_1.png)
 
-![Scenario Comparison](./Scenario%20Comparison.png)
+![Scenario Comparison](./Data/Scenario%20Comparison.png)
 
 ## Key Strategic Takeaways
 * **Nearshoring Dominance:** Under 2026 cost structures, serving Germany from Czechia (€9.49/unit landed cost vs. €13.99/unit locally) and France from Poland (€11.11/unit vs. €13.57/unit) saves millions in fixed and variable costs.
@@ -38,9 +37,9 @@ All cost, capacity, freight, and emissions inputs are anchored to 2026 European 
 Capacitated-Facility-Location-Problem/
 ├── Data/
 │   ├── EU_Supply_Chain_2026_Dataset_2.xlsx
+│   ├── Scenario Comparison_1.png
+│   ├── Scenario Comparison.png
 │   └── sources.md
 ├── notebooks/
 │   └── EU_Supply_Chain_Optimization_2026.ipynb
-├── Scenario Comparison_1.png
-├── Scenario Comparison.png
 └── README.md
